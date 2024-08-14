@@ -9,6 +9,7 @@
   --color-background: 255, 255, 255;
   --color-primary: 255 115 255;
   --color-secondary: 96 91 255;
+  --color-selection: 172 169 255;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,16 +21,6 @@
     --color-primary: 13 13 13;
     --color-secondary: 96 91 255;
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
