@@ -56,7 +56,7 @@ const Dashboard = () => {
             className={
               "w-full pl-8 flex gap-x-[14px] text-[#6E6E6E] hover:text-secondary/50 p-3 " +
               (pathName === val.href
-                ? "bg-gradient-to-r from-selNav/20 to-90%"
+                ? "bg-gradient-to-r from-selNav/20 to-90% text-secondary"
                 : "")
             }
           >
